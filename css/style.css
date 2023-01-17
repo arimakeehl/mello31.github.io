@@ -216,7 +216,7 @@ button {
      padding-bottom: 0px;
 }
 .layout_padding_1 {
-    margin-left: 150px;
+    /*margin-left: 150px;*/
     padding-top: 200px;
     padding-bottom: 100px;
 }
@@ -249,14 +249,19 @@ button {
 .header_right{
     width: 50%;
     float: left;
-    margin-top: 75px;
-     
+    margin-top: 75px;   
     
 }
 .header_right1{
     width: 75%;
-    float: left;   
-     
+    float: left;      
+    
+}
+.header_right2{
+    width: 35%;
+    float: right;    
+    margin-left: 100px;
+    
     
 }
 .banner_img{
@@ -748,11 +753,11 @@ button {
 .contact_txt{
     width: 100%;
     float: left;
-    font-size: 18px;
-    
+    font-size: 18px;    
     color: #ffffff;
     margin-left: 50px;
     font-weight: 450;
+    margin-top: 100px;
 }
 .readable_text_1{
     width: 100%;
