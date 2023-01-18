@@ -257,11 +257,14 @@ button {
     float: left;      
     
 }
-.header_right2{
-    width: 35%;
-    float: right;    
-    margin-left: 100px;
-    
+.header_up{
+    width: 100%;
+    margin-left: 345px;
+   
+    position: relative;
+    top: -100px;
+
+      
     
 }
 .banner_img{
