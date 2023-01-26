@@ -215,6 +215,9 @@ button {
      padding-top: 90px;
      padding-bottom: 0px;
 }
+.wistia_control {
+    display: none;
+}
 .layout_padding_1 {
     /*margin-left: 150px;*/
     padding-top: 200px;
@@ -268,7 +271,9 @@ button {
     
 }
 .banner_img{
-    width: 85%;
+    
+    width: 100%;
+    height: auto;
     float: left; 
 }
 
@@ -323,7 +328,61 @@ button {
     width: 170px;
     float: left;
     
+       
 }
+.video-embed {
+    margin-left: 340px;
+    margin-top: 100px;
+    width: 800px;
+    height: 450px;
+}
+
+@media all and (max-width:30em){
+    .contact_bt{
+        display:block;
+        margin: 0.4em auto;
+        position: relative;
+    }
+    .more_bt{
+        display:block;
+        margin:0.4em auto;
+        margin-left: 10px;
+    }
+    
+    
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* styles for mobile devices */
+   .box_main{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin-left: 50px;
+
+
+
+   }
+    
+    
+    .video-embed{
+        position: relative;height: 0;padding-top: 56%;overflow: hidden;max-width: 100%;
+    }
+
+  }
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
 .more_bt a { /* read more butonu*/
     width: 100%;
@@ -348,6 +407,7 @@ button {
     width: 170px;
     float: left;
     margin-left: 15px;
+    
 }
 .contact_bt a {
     width: 100%;
@@ -401,7 +461,15 @@ button {
     left: 0;
     border-radius: 100px;
 }
+
 .services_text {
+    width: 90%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 0px;
+}
+.footer_text {
     width: 90%;
     float: left;
     font-size: 16px;
@@ -479,9 +547,9 @@ button {
 .what_we_do_section_2{
     width: 100%;
     float: right;
-    position: relative;
+    /*position: relative;
     left:150px; 
-    top:2px; 
+    top:2px; */
     margin-top: 40px;
 }
 .box_main {
@@ -490,7 +558,7 @@ button {
     background-color: #a01c9f;
     border-radius: 10px;
     padding: 30px 0px;
-    padding-top: 100px;
+    /*padding-top: 100px;*/
     /* position:sticky;
     left:150px; 
     top:2px;  */
@@ -501,7 +569,7 @@ button {
     background-color: #000000;
     border-radius: 10px;
     padding: 30px 0px;
-    padding-top: 100px;
+    /*padding-top: 100px;*/
     /* position: relative; 
     left:150px; 
     top:2px;  */
@@ -509,7 +577,7 @@ button {
 .box_main_2 {
     width: 100%;
     float: left;
-    background-color: #790678;
+    background-color: #a01c9f;
     border-radius: 10px;
     padding: 30px 0px;
 }
@@ -529,7 +597,7 @@ button {
     background-color: #3dc915;
     border-radius: 10px;
     padding: 30px 0px;
-    padding-top: 100px;
+    /*padding-top: 100px;*/
    /*  position: relative; 
     left:150px;  
     top:2px;  */
@@ -776,12 +844,28 @@ button {
     margin: 0 auto;
     text-align: center;
 }
+
 .social_icon ul{
     margin: 0px;
     padding: 0px;
     display: inline-block;
 }
 .social_icon li{
+    float: left;
+    padding: 20px 3px 0px 3px;
+}
+.social_icon_contact{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social_icon_contact ul{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+.social_icon_contact li{
     float: left;
     padding: 20px 3px 0px 3px;
 }
@@ -921,8 +1005,8 @@ button {
     font-size: 18px;
     color: #fffcf4;
     padding-top: 10px;
-    margin: 0px;
-    line-height: 40px;
+    
+    
 }
 .mail_text {
     width: 100%;
