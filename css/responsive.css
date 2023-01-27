@@ -369,8 +369,9 @@ padding: 126px 40px;
         margin-left: 10px;
 
         position: relative;
-        left: 20px;
+        left: 10px;
     }
+    
 
     .last { display: none; }
     .carousel-caption {display: none;} 
@@ -446,7 +447,9 @@ ul.link li {
 }
 .social_icon_contact{ /*contact sosyal ikon */
    position:relative;
-   top: -100px;
+   top: -150px;
+   margin-left: 15px;
+
 }
 
 .header_left { width: 100%; }
