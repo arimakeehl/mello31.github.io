@@ -275,6 +275,15 @@ button {
     width: 100%;
     height: auto;
     float: left; 
+    
+}
+.banner_img_2{
+    position: relative;
+    top: -100px;
+    width: 90%;
+    height: auto;
+    float: left; 
+   
 }
 
 .logo {
